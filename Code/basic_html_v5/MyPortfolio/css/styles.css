@@ -1,0 +1,94 @@
+body{
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header{
+  background-color: #efefef;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container{
+  /* background-color: royalblue; */
+  width: 400px;
+  margin-right: auto ;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  /* background-color: red; */
+}
+
+.icon img {
+  /* border-radius: 20px; */
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: snow;
+}
+
+.info{
+  /* background-color: oldlace; */
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p{
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul{
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+  /* 箇条書きの点々を消す */
+  display: flex;  
+}
+
+.info ul li{
+  margin-left: 8px;
+}
+
+.syoukai{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.syoukai > h1{
+  /* >をつけると左側の物の直下に適応される */
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.syoukai > section{
+  margin-bottom: 60px;
+}
+
+.syoukai >section > h1{
+  font-weight: normal;
+}
+
+.syoukai p {
+  line-height: 1.8;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}

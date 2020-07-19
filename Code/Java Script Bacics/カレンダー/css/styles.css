@@ -1,0 +1,45 @@
+body{
+  font-family: "Curier New", monospace;
+  font-size: 14px;
+}
+
+table{
+  border:2px solid #eee;
+  border-collapse:collapse;
+}
+
+thead,tfoot{
+  background:#eee;
+}
+
+th,td{
+  padding: 8px;
+  text-align: center;
+}
+
+tbody td:nth-child(6){
+  color: blue;
+}
+
+tbody td:last-child{
+  color: red;
+}
+
+tfoot{
+  font-weight: bold;
+}
+
+td.disabled{
+  opacity: 0.3;
+}
+
+td.today{
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today{
+  corsor: pointer;
+  user-select: none;
+}
